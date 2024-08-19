@@ -10,10 +10,6 @@ export const options = {};
 
 export default async function (fastify, opts) {
   // Place here your custom code!
-  // hooks
-  fastify.addHook("onRoute", (routeOptions) => {
-    console.log(`Registered route: ${routeOptions.url}`);
-  });
 
   // Do not touch the following lines
 
